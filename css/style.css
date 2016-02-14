@@ -1150,7 +1150,7 @@ p.subtitle {
 }
 /* ===== End buttons ===== */
 
-
+/* ===== custom ====== */
 .conference-date {
 	text-align: center;
 	color: red;
@@ -1180,4 +1180,17 @@ blockquote.cite p {
 p.description{
 	line-height: 40px;
 	text-align: justify;
+}
+
+ul.abstrackt {
+	/*list-style-type: circle;*/
+	list-style: square inside;
+}
+
+li.abstrackt {
+	list-style: square inside;
+}
+
+p.abstrackt {
+	padding-bottom: 20px;
 }
